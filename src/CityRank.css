@@ -1,0 +1,79 @@
+body {
+    background-color: #f9f4ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-class {
+    width: 480px;
+    margin-top: 10px;
+}
+
+@media screen and (width <=768px) {
+    .main-class {
+        width: 360px;
+        margin-top: 10px;
+    }
+}
+
+.search-class {
+    width: 200px;
+}
+
+.list-class {
+    color: #172c66;
+}
+
+.list-class .button-innerclass {
+    color: #172c66;
+    background-color: #fffffe;
+}
+
+.list-class .button-innerclass:hover {
+    color: #001858;
+    background-color: #eaddcf;
+}
+
+.list-class .button-innerclass:focus {
+    color: #001858;
+    background-color: #eaddcf;
+}
+
+.list-class .item-class {
+    background-color: #fffffe;
+    padding: 8px;
+    margin: 2px;
+}
+
+.list-class .item-class:hover {
+    background-color: #eaddcf;
+}
+
+.list-class article {
+    color: #172c66;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px;
+}
+
+.list-class h2 {
+    color: #001858;
+}
+
+.list-class .description-class {
+    display: flex;
+    flex-direction: row;
+    color: #172c66;
+}
+
+.list-class .countryname-class {
+    width: 110px;
+}
+
+.list-class .population-class {
+    width: 90px;
+    padding-right: 10px;
+    text-align: right;
+}
